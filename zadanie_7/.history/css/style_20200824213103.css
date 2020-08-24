@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-content: flex-start;
+}
+
+h1{
+    background-color: red;
+    margin: auto;
+    height: 10%;
+    font-weight: normal;
+    margin: auto;
+    padding: 6px 0;
+}
+
+p{
+    background-color: rgb(0, 217, 255);
+    width: 50%;
+    margin: 0;
+    padding: 2px 0 100px 0;
+}
+aside{
+    width: 25%;
+    padding: 2px;
+}
+
+#left{
+    background-color: green;
+    float: left;
+}
+#right{
+    background-color: pink;
+    float: right;
+}
+footer{
+    background-color: plum;
+    height: 10%;
+    padding: 6px 0;
+}
+
+@media screen and (max-width: 768px){
+    main{
+        flex-wrap: wrap-reverse;
+        align-content: space-around;
+
+    }
+    p{
+        width: 60%;
+
+    }
+    #right{
+        width: 40%;
+
+    }
+    #left{
+        width: 100%;
+
+    }
+
+

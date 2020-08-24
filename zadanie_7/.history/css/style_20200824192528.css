@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: white;
+
+}
+.container {
+    displey: flex;
+}
+
+h1{
+    background-color: red;
+}
+p{
+    background-color: rgb(0, 217, 255);
+}
+aside{
+    background-color: green;
+    float: left;
+}
+section{
+    background-color: pink;
+    float: right;
+}
+footer{
+    background-color: plum;
+}

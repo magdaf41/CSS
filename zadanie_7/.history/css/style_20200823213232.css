@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: white;
+}
+
+h1{
+    background-color: red;
+    color: white;
+
+
+}

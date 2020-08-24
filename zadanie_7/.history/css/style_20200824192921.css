@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: white;
+
+}
+#container {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+}
+
+h1{
+    background-color: red;
+}
+p{
+    background-color: rgb(0, 217, 255);
+}
+#left{
+    background-color: green;
+    float: left;
+}
+#right{
+    background-color: pink;
+    float: right;
+}
+footer{
+    background-color: plum;
+}
