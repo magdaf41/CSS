@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    color: blue;
+}
+
+h1{
+    @font-face {
+        font-family: OpenSanse;
+        src: url(OpenSans-Regular.ttf);
+      }
+}

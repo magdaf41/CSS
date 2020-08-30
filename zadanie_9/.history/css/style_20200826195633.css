@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    background-color: #007bff;
+    width: 100px;
+    height: 1px;
+    border: none;
+    padding: 0%;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333;
+    border: 1px solid #007bff;
+    padding: 14px 20px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #007bff;
+}
+.title {
+    text-transform: uppercase;
+    font-size: 1.9em;
+    color: #333;
+    text-align: center;
+}
+
+/* Header style */
+
+.main-header {
+    height: 70vh;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header .main-header-content {
+    text-align: center;
+}
+
+.main-header .main-header-content h1 {
+    font-size: 4.2em;
+    color: #007bff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-header .main-header-content p {
+    color: #333;
+    font-size: 1.3em;
+    margin: 40px 0;
+}
+
+.main-header .main-header-content p span {
+    color: #007bff;
+}
+
+/* nav */
+
+.main-menu {
+    background-color: #007bff;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-menu ul .menu-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-menu ul .menu-item a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    display: block;
+    transition: all .3;
+}
+
+.main-menu ul .menu-item a:hover{
+    background-color: white;
+    color: #007bff;
+}
+
+#about {
+    background-color: white;
+    display: inline-block;
+    padding: 120px;
+    height: 100hv;
+
+}

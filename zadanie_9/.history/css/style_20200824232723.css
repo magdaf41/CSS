@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+}
+
+hr {
+    color: blue;
+}
+
+h1{
+
+
+        font-size: 4.2em;
+
+}
+#header{
+    color: #333;
+}
+.button{
+    color: #333;
+}
+
+.skills{
+    font-size: 1.3em;
+}
+.menu {
+    font-size: 1.9em;
+}
+.title{
+    font-size: 3em;
+    color: #333;
+}
